@@ -15,8 +15,7 @@ const layersDir = path.join(basePath, "/layers");
  * General Generator Options
  ***********************/
 
-const description =
-  "This is the description of your NFT project, remember to replace this";
+const description = "이 NFT는 너무 멋져요!";
 const baseUri = "ipfs://NewUriToReplace";
 
 const outputJPEG = false; // if false, the generator outputs png's
@@ -25,7 +24,7 @@ const outputJPEG = false; // if false, the generator outputs png's
  * Set your tokenID index start number.
  * ⚠️ Be sure it matches your smart contract!
  */
-const startIndex = 0;
+const startIndex = 1;
 
 const format = {
   width: 512,
@@ -40,8 +39,8 @@ const background = {
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
-    namePrefix: "Series 2", // Use to add a name to Metadata `name:`
+    growEditionSizeTo: 100,
+    namePrefix: "멋쟁이 ", // Use to add a name to Metadata `name:`
     layersOrder: [
       { name: "Background" },
       {
